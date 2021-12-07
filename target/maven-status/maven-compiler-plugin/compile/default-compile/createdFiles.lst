@@ -1,0 +1,7 @@
+unal/resources/PricingResource.class
+unal/taxingApplication.class
+unal/api/PriceResponse.class
+unal/taxingConfiguration.class
+unal/api/PriceRequest.class
+unal/api/PriceRequest$PriceRequestBuilder.class
+unal/api/PriceResponse$PriceResponseBuilder.class
