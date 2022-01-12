@@ -10,5 +10,7 @@ import lombok.NoArgsConstructor;
 @Builder
 public class PriceResponse {
     @JsonProperty
+    String uberType;
+    @JsonProperty
     String price;
 }
