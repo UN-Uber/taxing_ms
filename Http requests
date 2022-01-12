@@ -1,5 +1,11 @@
 running locally:
-curl --location --request GET 'localhost:8080/getPrice?startLatitude=4.707049&startLongitude=-74.113632&endLatitude=4.668447&endLongitude=-74.099329'
+curl --location --request GET 'localhost:8080/getPrice?startLatitude=4.707049&startLongitude=-74.113632&endLatitude=4.668447&endLongitude=-74.099329&uberType=4'
 
 running in docker:
-curl --location --request GET 'localhost:7575/getPrice?startLatitude=4.707049&startLongitude=-74.113632&endLatitude=4.668447&endLongitude=-74.099329'
+curl --location --request GET 'localhost:7575/getPrice?startLatitude=4.707049&startLongitude=-74.113632&endLatitude=4.668447&endLongitude=-74.099329&uberType=4'
+
+uberType description:
+    1 = UberYa 
+    2 = UberPop
+    3 = Uber Comfort
+    4 = UberXL
