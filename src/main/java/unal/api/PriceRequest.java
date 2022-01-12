@@ -17,5 +17,6 @@ public class PriceRequest {
     double endLatitude;
     @JsonProperty
     double endLongitude;
-
+    @JsonProperty
+    Integer uberType;
 }
